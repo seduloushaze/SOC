@@ -1,1 +1,3 @@
 # SOC
+have learnt HTML CSS TAILWIND REACT  
+onto EXPRESS
