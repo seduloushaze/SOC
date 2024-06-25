@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      .container{
+        height: 100vh;
+        width: 100vw;
+        background: #000;
+        border: 5px solid white;
+        box-sizing: border-box;
+      }
+      .box{
+        height: 100px;
+        width: 400px;
+        background-color: #80A4ED;
+        border-radius: 10px;
+        margin:10px;
+        position:relative ;
+        animation-name: movement;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-delay: 2s;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        anima
+      }
+      @keyframes movement{
+        from{
+            top: 0;
+            left: 0;
+        }
+        to{
+            top: 0;
+            left: 70vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+
+  </body>
+</html>
